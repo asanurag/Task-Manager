@@ -1,3 +1,30 @@
+Task Manager -
+
+Task Manager is a React application built with Redux for state management. It allows users to create, edit, delete, and mark tasks as completed. Additionally, users can filter tasks based on their completion status and sort them by priority or due date.
+
+Features -
+
+Add new tasks with title, description, priority, and due date
+Edit existing tasks
+Delete tasks
+Mark tasks as completed or incomplete
+Filter tasks by completion status (all, completed, pending)
+Sort tasks by priority or due date
+
+Technologies Used -
+
+React
+Redux
+React Router (for routing)
+Redux Toolkit
+
+Acknowledgments -
+
+React
+Redux
+React Router
+Redux Toolkit
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
