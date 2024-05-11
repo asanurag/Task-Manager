@@ -1,0 +1,52 @@
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .task:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task-details {
+    flex: 1;
+  }
+  
+  .task-details h3 {
+    margin: 0;
+  }
+  
+  .task-actions button {
+    margin-left: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .task-actions button:hover {
+    background-color: #ccc;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  
+  .priority {
+    font-weight: bold;
+  }
+  
+  .priority-high {
+    color: red;
+  }
+  
+  .priority-medium {
+    color: orange;
+  }
+  
+  .priority-low {
+    color: green;
+  }
